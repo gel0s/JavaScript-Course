@@ -24,12 +24,52 @@ console.log("type of age after convert: "+ typeof(newage))
 
 let students = [
     "Anusha",
-    "Navruz"
+    "Navruz",
+    "Navruz1",
+    "Navruz2",
+    "Navruz3",
+    "Navruz4",
 ]
 
 let prices = [
     2, 3, 400, 500
 ]
+console.log(students[4]);
 
 // 5) Object
 
+let products = {
+    "gelos": "Одежды",
+    "korvon": "Всё есть",
+    "defacto": "Что-то"
+}
+
+let cherry1 = {
+    "testy": "Sweet",
+    "color": "Red"
+}
+
+
+let cherry2 = {
+    "testy": "Sweet",
+    "color": "Darkblue"
+}
+
+let vegetables = []
+
+
+console.log("Vegetables has "+vegetables.length +" elements");
+
+
+// vegetables.length Возвращает длину массива
+// vegetables.push(some element) Добавляет новый элемент в массив 
+// vegetables.pop(some element) Удаляет последнего элемента
+
+vegetables.push(cherry1)
+vegetables.push(cherry2)
+
+console.log("Vegetables has "+vegetables.length +" elements");
+
+vegetables.pop(cherry1)
+
+console.log("Vegetables has "+vegetables.length +" elements");
