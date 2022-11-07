@@ -23,5 +23,13 @@ console.log("type of age after convert: "+ typeof(newage))
 // 4) Array
 
 let students = [
-    "Anusha"
+    "Anusha",
+    "Navruz"
 ]
+
+let prices = [
+    2, 3, 400, 500
+]
+
+// 5) Object
+
